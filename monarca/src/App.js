@@ -90,7 +90,7 @@ function App() {
   </header>
    
     <div>
-        <h1 class="CatBen" id="services">Categorias Beneficios</h1>
+        <h1 class="CatBen" id="services">Categorias Beneficios </h1>
      
         <div class="services-section">
             <article class="services-info">
