@@ -39,12 +39,11 @@ function App() {
     <div class="header-section" id="inicio">
         <div class="header-container fixed-top" style={{background: `rgb(40, 40, 93)`}}>
             <div class="site-title">
-                <h1></h1>
                 <Titulo></Titulo>
             </div>
 
             <ul class="site-nav">
-                <a href="#" class="nav-item-link">Inicio</a>
+                <a href="#inicio" class="nav-item-link">Inicio</a>
                 <a href="#services">Categorias Beneficios</a>
                 <a href="#Beneficios">Beneficios</a>
                 <a href="#team">Nuestro equipo</a>
@@ -129,7 +128,7 @@ function App() {
         
         <div>
             <div id="crear-beneficio">
-                <a class="bcrear-ben" href="#modalCrearBeneficio" data-bs-toggle="modal" title="Crear Beneficio" role="link">Crear Beneficio</a>
+                {/* <a class="bcrear-ben" href="#modalCrearBeneficio" data-bs-toggle="modal" title="Crear Beneficio" role="link">Crear Beneficio</a> */}
             </div>
 
             <h1 id="Beneficios" class="CatBen">Beneficios</h1>
@@ -252,9 +251,9 @@ function App() {
         <article>
             <h2>Contacto</h2>
             <div>
-                <a href="https://www.facebook.com/groups/Grupo.oficial.MisionTIC2022/?ref=share" target="_blank"><img class="footer-info__imagen" src={Facebook} alt=""/></a>
-                <a href="https://twitter.com/Ministerio_TIC?s=09" target="_blank"><img class="footer-info__imagen" src={Twitter} alt=""/></a>
-                <a href="https://instagram.com/ministerio_tic?utm_medium=copy_link" target="_blank"><img class="footer-info__imagen" src={Instagram} alt=""/></a>
+                <link to="https://www.facebook.com/groups/Grupo.oficial.MisionTIC2022/?ref=share" target="_blank"><img class="footer-info__imagen" src={Facebook} alt=""/></link>
+                <link to="https://twitter.com/Ministerio_TIC?s=09" target="_blank"><img class="footer-info__imagen" src={Twitter} alt=""/></link>
+                <link to="https://instagram.com/ministerio_tic?utm_medium=copy_link" target="_blank"><img class="footer-info__imagen" src={Instagram} alt=""/></link>
             </div>
             <p>Monarca Soluciones S.A.S</p>
             <p>Calle 24 # 19 - 37 Bogotá, Colombia</p>
@@ -311,8 +310,8 @@ function App() {
                             <input class="controls" type="text" name="cargo" id="cargo" placeholder="Ingrese su Cargo"/>
                             <input class="controls" type="date" name="fechaIngreso" id="fechaIngreso" placeholder="Fecha de ingreso"/>
                             <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña"/>
-                            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-                            <p><a href="#" data-bs-dismiss="modal">¿Ya tengo Cuenta?</a></p>
+                            <p>Estoy de acuerdo con <link to="#">Terminos y Condiciones</link></p>
+                            <p><link to="#" data-bs-dismiss="modal">¿Ya tengo Cuenta?</link></p>
                         </section>
                     </form>
                     
